@@ -2,8 +2,9 @@ body {
   background-color: black;
   text-align: center;
 }
-.bg-container {
-  /*background-color: white;*/
+.container {
+  margin: auto;
+  position: relative;
 }
 .main-header {
   /*2.remove class after user clicks on #first clue */
@@ -12,18 +13,21 @@ body {
   color: white;
 }
 #hidden-header {
-
   color: white;
 }
  h1, h2 {
 	text-align: center;
-
+}
+#h1-static {
+  color: black;
+  background-color: white;
+  position: relative;
 }
 h3 {
-  text-align: right;
   margin-top: 250px;
-  font-size: 25px;
+  font-size: 15px;
   color: black;
+  padding: 5px;
 }
 h4 {
   color: white;
@@ -31,18 +35,19 @@ h4 {
 }
 .bg-white {
   background-color: white;
-
 }
 .bg-black {
   background-color: black;
 }
+#first-clue-event1 {
+  margin-right: 600px;
+}
 #first-clue-event1 h3{
-  /*1. toggle or show bg-color when user clicks on # first-clue h3 also toggle background color and text color change.*/
-  /*background-color: white;*/
-  margin-left: 965px;
-  padding: 5px;
-
-
+  width: 60px;
+  height: 60px;
+}
+.bg-toggle {
+  position: relative;
 }
 #first-clue-event1 :hover{
   cursor: cell;
@@ -54,8 +59,7 @@ h4 {
   color: #8AE6F2;
   text-decoration: underline;
 }
-#hidden-header, #event2 :hover{
-
+#hidden-header :hover{
   cursor: pointer;
 }
 .radios-1stSet {
@@ -64,9 +68,43 @@ h4 {
   border: 5px solid white;
   display: none;
 }
+ img{
+  width: 180px;
+  height: 180px;
+}
+
+#img3 {
+  width: 250px;
+}
+.img-align {
+  display: inline-block;
+  text-align: center;
+}
 .radios-2ndSet {
+  background-color: #8AF2C3;
+  color: black;
+  border: 5px solid white;
   display: none;
 }
+.radios-2ndSet img {
+  width:
+}
 .radios-3rdSet {
+  background-color: #E6BAC7;
   display: none;
+}
+p {
+  font-size: 15px;
+  text-align: center;
+}
+.bg-toggle {
+  border: 2px solid green;
+}
+.output {
+  position: relative;
+  display: none;
+  text-align: center;
+}
+textarea {
+  width: 350px;
 }
