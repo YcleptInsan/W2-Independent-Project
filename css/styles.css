@@ -9,6 +9,7 @@ body {
   /*2.remove class after user clicks on #first clue */
   border: 5px solid white;
   margin-top: 50px;
+  color: white;
 }
 #hidden-header {
 
@@ -16,7 +17,7 @@ body {
 }
  h1, h2 {
 	text-align: center;
-  color: white;
+
 }
 h3 {
   text-align: right;
@@ -29,9 +30,13 @@ h4 {
   text-align: center;
 }
 .bg-white {
-  /*background-color: blue;*/
+  background-color: white;
+
 }
-#first-clue h3{
+.bg-black {
+  background-color: black;
+}
+#first-clue-event1 h3{
   /*1. toggle or show bg-color when user clicks on # first-clue h3 also toggle background color and text color change.*/
   /*background-color: white;*/
   margin-left: 965px;
@@ -39,16 +44,24 @@ h4 {
 
 
 }
-#first-clue :hover{
+#first-clue-event1 :hover{
   cursor: cell;
 }
 #hidden-header {
   display: none;
 }
-#hidden-questions {
-  display: none;
+#event2 {
+  color: #8AE6F2;
+  text-decoration: underline;
+}
+#hidden-header, #event2 :hover{
+
+  cursor: pointer;
 }
 .radios-1stSet {
+  background-color: lightblue;
+  color: black;
+  border: 5px solid white;
   display: none;
 }
 .radios-2ndSet {
