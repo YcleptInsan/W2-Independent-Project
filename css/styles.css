@@ -1,16 +1,36 @@
-.container {
-  dis
+body {
+  background-color: black;
+}
+.bg-container {
+  /*background-color: white;*/
+}
+.main-header {
+  /*remove class after user clicks on #first clue */
+  border: 5px solid white;
+  margin-top: 50px;
+}
+#hidden-header {
+
+  color: white;
 }
  h1, h2 {
 	text-align: center;
-  display: none;
+  color: white;
 }
 h3 {
   text-align: right;
   margin-top: 250px;
   font-size: 25px;
-
-
+  color: black;
+}
+h4 {
+  color: white;
+  text-align: center;
+}
+#first-clue h3{
+  /*toggle or show bg-color when user clicks on # first-clue h3* first*/
+  background-color: white;
+  display: none;
 }
 .form-group {
 	width: 50%;
@@ -19,6 +39,9 @@ h3 {
 button{
 	margin: 0 auto;
   text-align: center;
+}
+#hidden-header {
+  display: none;
 }
 #hidden-questions {
   display: none;
