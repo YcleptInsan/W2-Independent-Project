@@ -1,0 +1,25 @@
+.container {
+  dis
+}
+ h1, h2 {
+	text-align: center;
+  display: none;
+}
+h3 {
+  text-align: right;
+  margin-top: 250px;
+  font-size: 25px;
+
+
+}
+.form-group {
+	width: 50%;
+	margin: auto;
+}
+button{
+	margin: 0 auto;
+  text-align: center;
+}
+#hidden-questions {
+  display: none;
+}
