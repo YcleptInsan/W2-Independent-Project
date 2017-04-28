@@ -1,11 +1,12 @@
 body {
   background-color: black;
+  text-align: center;
 }
 .bg-container {
   /*background-color: white;*/
 }
 .main-header {
-  /*remove class after user clicks on #first clue */
+  /*2.remove class after user clicks on #first clue */
   border: 5px solid white;
   margin-top: 50px;
 }
@@ -27,22 +28,32 @@ h4 {
   color: white;
   text-align: center;
 }
+.bg-white {
+  /*background-color: blue;*/
+}
 #first-clue h3{
-  /*toggle or show bg-color when user clicks on # first-clue h3* first*/
-  background-color: white;
-  display: none;
+  /*1. toggle or show bg-color when user clicks on # first-clue h3 also toggle background color and text color change.*/
+  /*background-color: white;*/
+  margin-left: 965px;
+  padding: 5px;
+
+
 }
-.form-group {
-	width: 50%;
-	margin: auto;
-}
-button{
-	margin: 0 auto;
-  text-align: center;
+#first-clue :hover{
+  cursor: cell;
 }
 #hidden-header {
   display: none;
 }
 #hidden-questions {
+  display: none;
+}
+.radios-1stSet {
+  display: none;
+}
+.radios-2ndSet {
+  display: none;
+}
+.radios-3rdSet {
   display: none;
 }
