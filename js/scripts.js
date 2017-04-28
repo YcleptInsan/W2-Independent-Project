@@ -1,6 +1,12 @@
-$(document).ready(function(){
-	var main_result = radioSet1Result + radioSet2Result + radioSet3Result;
-});
+function on__off_Val1(){
+
+	var main_result = $(radio1Set1)
+	 document.getElementById("radio1").value;
+    document.getElementById(".output").innerHTML = main_result;
+		if (radio1Set1 === on)
+			alert("on");
+	// var main_result = radioSet1Result + radioSet2Result + radioSet3Result;
+}
 $(document).ready(function(){
 	$("#first-clue-event1").click(function(event){
 		event.preventDefault();
