@@ -1,7 +1,3 @@
-function on__off_Val1() {
-
-}
-
 $(document).ready(function(){
 	$("#first-clue-event1").click(function(event){
 			event.preventDefault();
@@ -18,7 +14,7 @@ $(document).ready(function(){
 				$("#hidden-header").hide();
 
 				if( result1 === undefined) {
-					
+
 				}
 
 
