@@ -7,16 +7,24 @@ $(document).ready(function(){
 	});
 
 	$("#event2").click(function(event){
-		event.preventDefault();
-			var result1 = $("input:radio[name=radio]:checked").val();
+
+			var radio1 = document.getElementById("radio1").checked;
+			var radio2 = document.getElementById("radio2").checked;
+			var radio3 = document.getElementById("radio3").checked;
+
+				event.preventDefault();
+			console.log(radio2);
+			console.log(radio1);
+			console.log(radio3);
+			// var result1 = $("input:radio[name=radio]:checked").val();
 				$("#first-clue-event1").hide();
 				$(".radios-1stSet").show();
 				$("#hidden-header").hide();
 
-				if( result1 === undefined) {
-
-				}
-
+				// if(radio1 === true && radio2 === false && radio3 === false) {
+				//
+				// }
+				//
 
 
 	});
