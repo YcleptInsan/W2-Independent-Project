@@ -98,7 +98,7 @@ p {
   text-align: center;
 }
 .bg-toggle {
-  /*border: 2px solid green;*/
+  border: 2px solid green;
 }
 .output {
   position: relative;
@@ -111,6 +111,11 @@ textarea {
 #imgResult1 {
   display: none;
 }
+#imgResult1 p{
+  display: none;
+	color: white;
+}
+
 #imgResult2 {
   display: none;
 }
