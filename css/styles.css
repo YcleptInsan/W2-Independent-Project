@@ -71,8 +71,8 @@ h4 {
 
 }
  img{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 
 }
 
@@ -94,13 +94,9 @@ h4 {
   display: none;
 
 }
-.radios-2ndSet img {
-  width:
-}
 .radios-3rdSet {
   background-color: #E6BAC7;
   display: none;
-
 }
 p {
   font-size: 15px;
@@ -114,17 +110,9 @@ p {
   display: none;
   text-align: center;
 }
-textarea {
-  width: 350px;
-}
 #imgResult1 {
   display: none;
 }
-#imgResult1 p{
-  display: none;
-	color: white;
-}
-
 #imgResult2 {
   display: none;
 }
@@ -136,4 +124,17 @@ textarea {
 }
 #img5 {
   display: none;
+}
+#result img {
+  width: 400px;
+  height: 400px;
+
+}
+.output p {
+  color: white;
+  font-size: 25px;
+}
+.output span {
+  color: white;
+  font-size: 20px;
 }
