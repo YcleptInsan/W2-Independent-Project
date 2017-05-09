@@ -1,6 +1,7 @@
 body {
   background-color: black;
   text-align: center;
+
 }
 .container {
   margin: auto;
@@ -67,24 +68,31 @@ h4 {
   color: black;
   border: 5px solid white;
   display: none;
+
 }
  img{
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
+
 }
 
 #img3 {
   width: 250px;
 }
+#img1Set3 {
+  width: 250px;
+}
 .img-align {
   display: inline-block;
   text-align: center;
+
 }
 .radios-2ndSet {
   background-color: #8AF2C3;
   color: black;
   border: 5px solid white;
   display: none;
+
 }
 .radios-2ndSet img {
   width:
@@ -92,6 +100,7 @@ h4 {
 .radios-3rdSet {
   background-color: #E6BAC7;
   display: none;
+
 }
 p {
   font-size: 15px;
